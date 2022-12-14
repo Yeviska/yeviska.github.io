@@ -4,7 +4,6 @@
     border: none;
 }
 
-
 a{
   text-decoration: none;
   color:inherit;
@@ -35,7 +34,6 @@ color: #fff;
 }
 
 .nav{
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,8 +46,6 @@ color: #fff;
   font-weight: 400;
   white-space: nowrap;
 }
-
-
 .menu-link{
   font-size: 20px;
   line-height: 24px;
@@ -58,6 +54,7 @@ color: #fff;
   font-size: 30px;
   font-weight: 700;
 }
+
 .home-container{
   max-width: 1065px;
   margin: 0 auto;
@@ -76,3 +73,14 @@ color: #fff;
  color: #fff;
 }
     
+.about-container {
+  max-width: 1065px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.about-contante{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}  
