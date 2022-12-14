@@ -73,14 +73,22 @@ color: #fff;
  color: #fff;
 }
     
-.about-container {
+.about-me-container{
   max-width: 1065px;
   margin: 0 auto;
   padding: 0 15px;
+  padding-top: 80px;
 }
-.about-contante{
+.about-me-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 80px;
 }  
+.about-me-tittle{
+  max-width: 500px;
+  font-size: 26px;
+  font-weight: 500;
+ color: #fff;
+ text-align: right;
+}
