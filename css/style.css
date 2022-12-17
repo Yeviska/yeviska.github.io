@@ -102,8 +102,27 @@ body{
   margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-
+padding-bottom: 80px;
 }
-.skills-content{
- 
+.portfolio-container{
+  padding-top: 80;
+  max-width: 1315px;
+  margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 80px;
+}
+.portfolio-tittle{
+  display: flex;
+  top: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9B51E0;
+ padding: 20px 100px 20px ;
+ font-size: 30px;
+ color: #fff;
+ font-weight: 700;
+}
+.photo-content{
+  padding-top: 80px;
 }
