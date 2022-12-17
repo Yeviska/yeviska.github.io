@@ -127,3 +127,42 @@ padding-bottom: 80px;
 .photo-content{
   padding-top: 80px;
 }
+.contacts-container{
+  padding-top: 80;
+  max-width: 1315px;
+  margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 80px;
+}
+.h3 {
+  font-size: 50px;
+  text-align: center;
+  /* max-width: 372px; */
+  margin-top: 70px;
+  padding: 26px 0px;
+  background-color: #9B51E0;
+  color: #fff;
+  border-radius: 30px;
+}
+.contacts-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+element.style {
+}
+a, a:link, a:visited {
+    text-decoration: none;
+}
+.contacts-a {
+    font-size: 38px;
+    text-align: center;
+    /* max-width: 372px; */
+    margin-top: 20px;
+    padding: 40px 125px;
+    background-color:#9B51E0;
+    color: #fff;
+    border-radius: 20px;
+  }
