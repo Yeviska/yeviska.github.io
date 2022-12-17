@@ -3,7 +3,9 @@
     margin: 0px;
     border: none;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 a{
   text-decoration: none;
   color:inherit;
@@ -20,24 +22,22 @@ body{
   background-color: black;
   font-family: 'Inter', sans-serif;
 }
-.header{
-background-color: #9B51E0;
-padding: 20px 0px 20px;
-color: #fff;
-position: sticky;
-}
-
 
 .container{
   max-width: 1310px;
   margin: 0 auto;
   padding: 0 15px;
-}
 
+}
 .nav{
   display: flex;
+  top: 0;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  background-color: #9B51E0;
+ padding: 20px 100px ;
+
 }
 .menu{
   display: flex;
@@ -46,6 +46,7 @@ position: sticky;
   font-size: 14px;
   font-weight: 400;
   white-space: nowrap;
+  color: #fff;
 }
 .menu-link{
   font-size: 20px;
@@ -53,6 +54,7 @@ position: sticky;
 }
 .logo{
   font-size: 30px;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -79,6 +81,7 @@ position: sticky;
   margin: 0 auto;
   padding: 0 15px;
   padding-top: 80px;
+  padding-bottom: 160px;
 }
 .about-me-content{
   display: flex;
@@ -92,4 +95,15 @@ position: sticky;
   font-weight: 500;
  color: #fff;
  text-align: right;
+}
+
+.skills-container{
+  max-width: 1065px;
+  margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+.skills-content{
+ 
 }
