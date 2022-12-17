@@ -166,3 +166,26 @@ a, a:link, a:visited {
     color: #fff;
     border-radius: 20px;
   }
+  .container-footer{
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px; 
+  
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+    align-items: center
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+.nav-logo {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
