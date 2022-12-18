@@ -187,9 +187,9 @@ a, a:link, a:visited {
 
 
 @media(min-width: 375px){
-  
+
   .container{
-    max-width: 375px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
