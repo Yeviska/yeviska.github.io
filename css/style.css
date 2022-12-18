@@ -188,8 +188,5 @@ a, a:link, a:visited {
 
 @media(min-width: 375px){
 
-.home-container, .about-me-container, .skills-container, .portfolio-container, .contacts-container, .container-footer{ 
-max-width: 100%;
-}
-
+  
 }
