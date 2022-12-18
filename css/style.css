@@ -188,8 +188,10 @@ a, a:link, a:visited {
 }
 
 
-@media(min-width: 320px){
+@media(max-width: 330px){
 
-
+*{
+max-width: 100%;
+}
 
 }
