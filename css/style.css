@@ -151,8 +151,6 @@ padding-bottom: 200px;
   gap: 48px;
 }
 
-element.style {
-}
 a, a:link, a:visited {
     text-decoration: none;
 }
@@ -188,7 +186,7 @@ a, a:link, a:visited {
 }
 
 
-@media(max-width: 330px){
+@media(min-width: 375px){
 
 *{
 max-width: 100%;
