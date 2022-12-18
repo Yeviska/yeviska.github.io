@@ -186,3 +186,10 @@ a, a:link, a:visited {
   flex-direction: row;
   column-gap: 50px;
 }
+
+
+@media(max-width: 320px){
+
+
+  
+}
