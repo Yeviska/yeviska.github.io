@@ -188,7 +188,28 @@ a, a:link, a:visited {
 
 @media screen and (max-width: 575px){
   .home-container{
-    max-width: 100%;
+    max-width: 575px;
+  }
+  .home-content {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  
+.home-title {
+    max-width: 200px;
+    font-size: 20px;
+    font-weight: none;
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width: 320px){
+  .home-container{
+    max-width: 320px;
   }
   .home-content {
     display: grid;
