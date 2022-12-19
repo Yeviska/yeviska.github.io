@@ -58,6 +58,8 @@ body{
   font-weight: 700;
 }
 
+
+
 .home-container{
   max-width: 1065px;
   margin: 0 auto;
@@ -76,6 +78,8 @@ body{
  color: #fff;
 }
     
+
+
 .about-me-container{
   max-width: 1065px;
   margin: 0 auto;
@@ -97,6 +101,8 @@ body{
  text-align: right;
 }
 
+
+
 .skills-container{
   max-width: 1065px;
   margin: 0 auto;
@@ -104,6 +110,9 @@ padding-left: 15px;
 padding-right: 15px;
 padding-bottom: 80px;
 }
+
+
+
 .portfolio-container{
   padding-top: 80;
   max-width: 1315px;
@@ -127,6 +136,9 @@ padding-bottom: 80px;
 .photo-content{
   padding-top: 80px;
 }
+
+
+
 .contacts-container{
   padding-top: 80;
   max-width: 1315px;
@@ -164,6 +176,10 @@ a, a:link, a:visited {
     color: #fff;
     border-radius: 20px;
   }
+
+
+
+
   .container-footer{
     padding-top: 200;
     max-width: 1310px;
@@ -185,7 +201,7 @@ a, a:link, a:visited {
   column-gap: 50px;
 }
 
-
+/* 
 @media screen and (max-width: 575px){
   .home-container{
     max-width: 100%;
@@ -205,12 +221,19 @@ a, a:link, a:visited {
     font-weight: none;
     margin-bottom: 30px;
 }
-}
+} */
 
 @media screen and (max-width: 320px){
-  .home-container{
+  .container {
     max-width: 100%;
-  }
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.home-container{
+  max-width: 1065px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
   .home-content {
     display: grid;
     justify-content: space-between;
@@ -218,6 +241,9 @@ a, a:link, a:visited {
     gap: 30px;
     padding-top: 56px;
     padding-bottom: 56px;
+  }
+  .img{
+    max-width: 100%;
   }
   
 .home-title {
