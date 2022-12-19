@@ -186,18 +186,23 @@ a, a:link, a:visited {
 }
 
 
-@media (max-width: 320px) {
-  .home-contant{
+@media screen and (max-width: 575px){
+  .home-container{
     max-width: 100%;
   }
-.home-contant {
-  max-width: 320px;
-}
-  .img{
-    max-width: 100%;
+  .home-content {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
-.home-title{
-  max-width: 400px;
-  font-size: 13px;
+  
+.home-title {
+    max-width: 200px;
+    font-size: 20px;
+    font-weight: none;
+    margin-bottom: 30px;
 }
 }
