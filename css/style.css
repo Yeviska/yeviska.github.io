@@ -230,11 +230,12 @@ a, a:link, a:visited {
     margin: 0 auto;
 }
 .home-container{
-  max-width: 1065px;
+  max-width: 88%;
   margin: 0 auto;
   padding: 0 15px;
 }
   .home-content {
+    max-width: 88%;
     display: grid;
     justify-content: space-between;
     align-items: center;
