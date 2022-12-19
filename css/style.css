@@ -254,7 +254,39 @@ a, a:link, a:visited {
   font-weight: 400px;
   /* margin-bottom: 30px; */ 
 }
+.skills-container{
+  max-width: 88%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+.skills-content{
+  max-width: 88%;
+  align-items: center;
+}
+.img3{
+  max-width: 88%; 
+  align-items: center;
+}
+.skills-container{
+  max-width: 88%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.skills-content{
+  max-width: 88%;
+  margin: 0 auto;
+padding-left: 32px;
+
+}
+.img3{
+  max-width: 88% 
+}
+}
+
+
+
+
+
 
 
 
@@ -312,5 +344,24 @@ a, a:link, a:visited {
   font-weight: 400px;
   /* margin-bottom: 30px; */ 
 }
+.skills-container{
+  max-width: 88%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.skills-content{
+  max-width: 88%;
+  margin: 0 auto;
+padding-left: 32px;
 
+}
+.img3{
+  max-width: 88% 
+}
+
+.portfolio-container{
+  max-width: 88%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 }
