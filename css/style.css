@@ -270,7 +270,7 @@ a, a:link, a:visited {
   padding: 0 15px;
 }
   .home-content {
-    max-width: 88%;
+    max-width: 100%;
     display: grid;
     justify-content: space-between;
     align-items: center;
