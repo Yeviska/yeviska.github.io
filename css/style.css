@@ -188,13 +188,13 @@ a, a:link, a:visited {
 
 @media screen and (max-width: 575px){
   .home-container{
-    max-width: 575px;
+    max-width: 100%;
   }
   .home-content {
     display: grid;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     padding-top: 56px;
     padding-bottom: 56px;
   }
@@ -209,13 +209,13 @@ a, a:link, a:visited {
 
 @media screen and (max-width: 320px){
   .home-container{
-    max-width: 320px;
+    max-width: 100%;
   }
   .home-content {
     display: grid;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     padding-top: 56px;
     padding-bottom: 56px;
   }
